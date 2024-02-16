@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/09c090ebe3.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal poetfolio website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="free"><span>S</span>aad<span></span>Ahsa<span>n.</span></h1>
+                <!-- <img src="logo.png" alt="" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Saad Ahsan</span> <br> khan From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----ABOUT------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/pexels-nitin-khajotia-1516680.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita tempore est perferendis
+                        explicabo repellat molestiae ab pariatur eligendi possimus tempora quod iusto, ad nisi corrupti,
+                        distinctio, obcaecati omnis quis ipsa aliquam. Maiores nihil qui ipsa, ipsum sed nobis impedit
+                        rem non et molestias totam earum eius nulla sequi repellendus.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>
+                                <div id="hii">Designing web/App interfaces</div>
+                            </li>
+                            <li><span>Web development</span><br>
+                                <div id="hii">Web app development</div>
+                            </li>
+                            <li><span>App development</span><br>
+                                <div id="hii">Building Android/ios apps</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>
+                                <div id="hii">UI/UX Design Training at ET Intitution</div>
+                            </li>
+                            <li><span>2019 - 2021</span><br>
+                                <div id="hii">Team lead at Start App LLC</div>
+                            </li>
+                            <li><span>2019 - 2021</span><br>
+                                <div id="hii">UI/UX Design at coin Digital Ltd</div>
+                            </li>
+                            <li><span>App development</span><br>
+                                <div id="hii">Intership at eKart eCommers</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2016</span><br>
+                                <div id="hii">Designing web/App interfaces</div>
+                            </li>
+                            <li><span>2016</span><br>
+                                <div id="hii">MBA from MIT Bangalore</div>
+                            </li>
+                            <li><span>2014</span><br>
+                                <div id="hii">BBA From ISM Bangalore</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------SERVICES------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam ab facilis quas sint
+                        laudantium dolores?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2> UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam ab facilis quas sint
+                        laudantium dolores?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam ab facilis quas sint
+                        laudantium dolores?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae itaque animi nam
+                            natus, fuga rem!</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae itaque animi nam
+                            natus, fuga rem!</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae itaque animi nam
+                            natus, fuga rem!</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>Contact@example.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>03023007800</p>
+                    <div class="social-icon">
+                        <a href="https:// facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="aisha.txt" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>copyright @ Made With <i class="fa-solid fa-heart"></i> Coding with Saad Ahsan khan </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
